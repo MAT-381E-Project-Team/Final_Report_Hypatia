@@ -1,0 +1,911 @@
+---
+title: "Recycling Movement in the Europe"
+author: "*Hypatia*"
+date: "01/29/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+       
+# **Project team members**   
+    
+* [**Selin Duman**](https://github.com/Selinduman)
+* [**Zeynep Akkoç**](https://github.com/akkocz17)
+* [**Büşra Köksal**](https://github.com/bkksl)
+
+
+
+
+# **Contents**
+• Project Description • Project goal & social problem addressed • Project data • Actions  • Dataset Information • Codes and Preliminary Results • Conculusion • Results and Discussion • References 
+
+\
+
+# **Project Description**   
+    
+## **PROJECT GOALS & SOCIAL PROBLEM**
+
+Waste (or wastes) are unwanted or unusable materials. Waste is any substance which is discarded after primary use, or is worthless, defective and of no use. A by-product by contrast is a joint product of relatively minor economic value. A waste product may become a by-product, joint product or resource through an invention that raises a waste product's value above zero.As a result of the increased mass production after the industrial revolution, our world has almost turned into a garbage heap. Europe generates large amounts of waste: food and garden waste, construction and demolition waste, mining waste, industrial waste, sludge, old televisions, old cars, batteries, plastic bags, paper, sanitary waste, old clothes and old furniture… the list goes on.Any waste that is not recycled or reused has to go somewhere, and it usually ends up at a landfill site. Landfill sites contain both household and commercial rubbish. Household waste that gets sent to landfill consists of mostly organic waste, for example food, paper, cardboard or wood. Other household rubbish contains plastic or tin packaging. Landfill sites are ugly problem.Landfills are a major source of pollution, and there are many negative issues associated with them. Rubbish buried in landfill breaks down at a very slow rate and remains a problem for future generations. Garbage heaps, which are increasing day by day and we cannot prevent this increase, pose a great threat to our world. Some ecosystems, like the marine and coastal ones, can be severely affected by poor management of waste, or by littering. Marine litter is a growing concern, and not only for aesthetic reasons: entanglement and ingestion constitute severe threats to many marine species.    
+
+Waste impacts the environment indirectly as well. Whatever is not recycled or recovered from waste represents a loss of raw material and other inputs used in the chain, i.e. in the production, transport and consumption phases of the product. Directly or indirectly, waste affects our health and well-being in many ways: methane gases contribute to climate change, air pollutants are released into the atmosphere, freshwater sources are contaminated, crops are grown in contaminated soil and fish ingest toxic chemicals, subsequently ending up on our dinner plates… Recycling is the process of collecting and processing materials that would otherwise be thrown away as trash and turning them into new products. Recycling can benefit our community and the environment. These are some benefits of recyling ; Reduces the amount of waste sent to landfills and incinerators, conserves natural resources such as timber, water and minerals ,increases economic security by tapping a domestic source of materials, prevents pollution by reducing the need to collect new raw materials, saves energy and etc.   
+
+Our project goal is to raise awareness about the recycling movement looking at to examine the status of the recycling movement, which is of great importance for the environment, according to certain parameters for example we are going to examine the municipal waste recycled and composted in each European country and also we will review recycling rates by country in 2019 in various ways such as landfill and incineration with energy  and we will also examine the rate of recycling of municipal waste by countries from 2004 to 2014.  
+     
+Municipal waste is defined as waste collected and treated by or for municipalities. It covers waste from households, including bulky waste, similar waste from commerce and trade, office buildings, institutions and small businesses, as well as yard and garden waste, street sweepings, the contents of litter containers, and market cleansing waste if managed as household waste. The definition excludes waste from municipal sewage networks and treatment, as well as waste from construction and demolition activities.  
+
+Composting is the natural process of recycling organic matter, such as leaves and food scraps, into a valuable fertilizer that can enrich soil and plants. Dead plants, fruit and vegetable scraps can be recycled through composting.The resulting compost product can be used in a variety of ways. Composting can be used agricultural land, backyard garden or construction sites. Composting is free and a lot healthier for the environment.Composting means less waste goes to landfills.Minimize the amount of trash we send to the landfill: Like recycling, composting reduces the amount of waste that gets sent to the landfill.A landfill site, also known as a tip, dump, rubbish dump, garbage dump, or dumping ground, is a site for the disposal of waste materials.  
+
+In this way, our final product will be to analysing to recycling movement's evolution from different perspectives. Depending on this, it may be concluded whether some steps need to be taken or not.  
+
+\
+
+# **Project data**
+
+* [**Municipal waste recycled and composted in each European country**](https://www.eea.europa.eu/data-and-maps/daviz/municipal-waste-recycled-and-composted-3#tab-chart_3_filters=%7B%22rowFilters%22%3A%7B%7D%3B%22columnFilters%22%3A%7B%7D%3B%22sortFilter%22%3A%5B%22value_2016_reversed%22%5D%7D)
+  
+* [**Recycling rates by country**](https://en.wikipedia.org/wiki/Recycling_rates_by_country)   
+
+* [**GDP of European countries in 2019**](https://www.statista.com/statistics/685925/gdp-of-european-countries/)
+
+* [**Waste shipment statistics**](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Waste_shipment_statistics#Shipments_of_hazardous_waste_within_and_out_of_the_EU)  
+
+* [**Waste shipments across borders**](https://ec.europa.eu/eurostat/web/waste/data)  
+
+* [**Per capita municipal waste generation in the European Union in 2019**](https://www.statista.com/statistics/789638/production-waste-tons-by-inhabitant-union-european/)  
+
+\
+
+# **Actions**
+We aimed to make our project understandable and easy to read. We used various graphics and maps for this. Instead of tiring the readers with numbers and complex data, we wanted to explain the data with colors and shapes.  
+
+First of all, we started by adding the necessary libraries to our code. Then we imported our data and created our tables and loaded them into our code page. While processing the data, we deleted the unnecessary rows and columns, filtered the data that would be useful to us and created new tables. Then we interpreted them by turning them into graphics.   
+
+In the first table, we visualized the recycling rates of countries. In the second table, we showed the landfill rates of the countries. In these two tables, Turkey part was highlighted.In the next two tables, we first printed the table showing the relationship between recycling and landfill, and then again showing the relationship between landfill and  Incineration with  energy recovery. We visualized Turkey's recycling and landfill rate as a pie chart.In the last tables you will see, municipal waste rates in 20004 and 2014.  
+
+As the next step, we made a new data analysis. First, we did some preprocessing on our data sets such as data cleaning and filtering. The first new data included the total waste generation rates of European countries. We visualized this data and turned it into a graph. In this way, we can easily see on the graph in which countries more waste is produced and in which countries less amount of waste is produced.
+
+Likewise, we have converted the recycling rates of countries to the same chart, and thus, we have made these two parameters more easily comparable.We mapped these two data in order to see the amount of recycling and total waste generation as density on the map.
+
+Then, for the date range ,2001-2018, we examined the treatment of hazardous waste shipments from EU with the bar chart.
+In addition to these, we have transformed the data containing the gross national products of European countries in millions into a bar graph.
+
+
+\
+
+# **Dataset Information**  
+
+The one of the dataset we obtained for the project was taken from this website (https://en.wikipedia.org/wiki/Recycling_rates_by_country). 
+To explain our dataset, we should know about some terms explanation. There are 5 terms that we should know. First of all, we can start with Recycling.  
+
+## **Recycling:**
+Recycling means that an item is reclaimed and then melted or broken down into raw materials to be manufactured into a new item. There are a lot of different types of recycling. Most popular ones are; Waste Paper and Cardboard, Plastic Recycling, Metal Recycling, WEEE Recycling (Electronic Devices), Wood Recycling, Glass Recycling, Clothing and Textile and Bricks and Inert Waste Recycling.  
+
+## **Composting**  
+Composting is the natural process of recycling organic matter, such as leaves and food scraps, into a valuable fertilizer that can enrich soil and plants. Dead plants, fruit and vegetable scraps can be recycled through composting.The resulting compost product can be used in a variety of ways. Composting can be used agricultural land, backyard garden or construction sites. Composting is free and a lot healthier for the environment. Composting means less waste goes to landfills.
+
+**Composting Benefits:**  
+Minimize the amount of trash we send to the landfill: Like recycling, composting reduces the amount of waste that gets sent to the landfill.  
+ 
+## **Incineration with energy recovery/without energy recovery**  
+Incineration with energy recovery refers to incineration processes where the energy created in the combustion process is harnessed for re-use, for example for power generation. Incineration without energy recovery means the heat generated by combustion is dissipated in the environment.  
+ 
+
+## **Landfill**  
+Any waste that is not recycled or reused has to go somewhere, and it usually ends up at a landfill site. Landfill sites contain both household and commercial rubbish. Household waste that gets sent to landfill consists of mostly organic waste, for example food, paper, cardboard or wood. Other household rubbish contains plastic or tin packaging. Landfill sites are ugly problem.Landfills are a major source of pollution, and there are many negative issues associated with them. Rubbish buried in landfill breaks down at a very slow rate and remains a problem for future generations.  
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+
+
+# **Codes and Preliminary Results**  
+
+```{r, warning=FALSE, message=FALSE, echo=F}
+  # Let's run the necessary libraries with the following code. 
+  # (**Note**: Libraries must be downloaded with **"install.packages()"** 
+  #  previously.)
+  library(tidyverse)
+  library(readr)
+  library(readxl)
+  library(ggplot2)
+  library(rvest)
+  library(ggpubr)
+  library(dplyr)
+  library(sf)
+  library(rnaturalearth)
+  library(rnaturalearthdata)
+  library(rgeos)
+  library(grid)
+  library(rworldmap)
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE}
+  # Reading in the table from Wikipedia
+  page = read_html("https://en.wikipedia.org/wiki/Recycling_rates_by_country")
+  # Obtain the piece of the web page that corresponds to the "wikitable" node
+  my.table = html_node(page, ".wikitable")
+  # Convert the html table element into a data frame
+  my.table = html_table(my.table, fill = TRUE)
+```  
+
+
+
+As we can the our output Slovenia's Recycling Rate in 2019 is the highest one.
+Compare to Slovenia Turkey Recycling rate in 2019 is one of the lowest.   
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE}
+  ggplot(data = my.table, aes(y = reorder(Country, -Recycling), 
+                            x = Recycling, fill = Country)) + 
+  labs(x="Recycling Rates (%)",y= "Countries", title="Countries's Recycling Rates")+
+  geom_bar(stat = "identity") + 
+  theme_bw() +
+  scale_fill_manual( values = c( "Turkey"="tomato" ), guide = FALSE )
+```
+
+\
+\
+\
+\
+\
+\
+
+We checked the also Landfill rates.Our data output shows that  Turkey's Landfill rate in 2019 is the highest one. Compare to  Turkey. Germany Landfill rate in 2019 is one of the lowest.  
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE}
+  ggplot(data = my.table, aes(y = reorder(Country, -Landfill), 
+                            x = Landfill, fill = Country)) + 
+  labs(x="Landfill Rates (%)",y= "Countries", title="Countries's Landfill Rates")+
+  
+  geom_bar(stat = "identity") + 
+  theme_bw() +
+  scale_fill_manual( values = c( "Turkey"="tomato" ), guide = FALSE )
+```
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+If we consider the terms we have explained and our data outputs.Landfill and recycling rates of countries are inversely related to each other.The red curve in our output clearly shows us this relationship. This relationship, which we usually see in developing countries, is related to the high rate of Landfill, the oldest method used in waste disposal. Landfills are commonly found in developing countries.Developed countries have kept this Landfill rate low by using the Landfill technique less.   
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE}
+  par(mar=c(5,5,5,7.2), xpd=FALSE)
+  plot(x= my.table$Recycling , y= my.table$Landfill , pch=19 , type= "p",
+       main= "Relationship between Recycling and Landfill",
+       xlab="Recyling",
+       ylab="Landfill")
+  abline( lm(my.table$Recycling ~ my.table$Landfill), lwd=2 ,ly=  "dotted" , 
+          col="red")
+```
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+If we consider the terms we have explained and our data outputs.Landfill and Incineration with energy recovery rates of countries are inversely related to each other.The red curve in our output clearly shows us this relationship. This relationship, which we usually see in developed countries, is related to the high rate of Incineration with energy recovery technic. In generally this technic  is used from development countries. Because of the construction cost, developing countries use this technich with really low rates.Developed countries have kept this Landfill rate high by using the advanced industrial facilities.  
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE}
+  par(mar=c(5,5,5,7.2), xpd=FALSE)
+  plot(x= my.table$`Incineration with energy recovery` , y= my.table$Landfill , 
+       pch=19 , type= "p",
+       main= "Relationship between IER and Landfill",
+       xlab="Incineration with energy recovery",
+       ylab="Landfill")
+  abline( lm(my.table$`Incineration with energy recovery` ~ my.table$Landfill), 
+          lwd=2 ,ly=  "dotted" , col="red")
+```
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+
+If we need to examine the rate of Turkey in the pie chart;unfortunately, it is seen that the Landfill rate is the highest in our country according to 2019 data.
+The recycling rate is very low compared to the Landfill rate.We hope that in the near future, we can see the rates to be the opposite of this situation.It is in our hands to change these rates by raising our awareness of this issue, which is one of the goals of our project.    
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE}
+  # Create data for the graph.
+  Turkey <- c(12,88)
+  labels <- c("Recycling","Landfill")
+  # Plot the chart with title.
+  pie(Turkey, labels, main = "Turkey's Recyling and Landfill Rates")
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  data3 <- read.csv("data/data3.csv")
+  data3[17,]= NA
+  data3[18,]= NA
+  data3[19,]= NA
+  data3[20,]= NA
+  data3[23,3] <- c("Macedonia")
+  data3[24,3] <- c("Macedonia")
+  A=na.omit(data3)
+```
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+The recycling rate of municipal waste in developed countries is higher than in underdeveloped or developing countries. From this point of view, we can say that developed countries attach great importance to recycling. Slovenia, Lithuania are the countries that have increased the percentage of municipal recycling at the highest rate in 12 years. Since there is no data for 2004 and 2014 in Serbia and Bosnia and Herzegovina, and for 2004 in Montenegro, a certain interpretation cannot be made. According to the data given in the countries of Turkey and Romania, it seems that the necessary importance is not given to recycling. 
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE}
+  # In this code, we filter the data and bring the data of 2004 and 
+  # 2016 into separate tables.
+  yil2004 <- A %>%
+    select("date.year", "country.text", "value.number") %>%
+    filter(date.year == 2004) %>%
+    arrange(country.text)
+  yil2016 <- A %>%
+    select("date.year", "country.text", "value.number") %>%
+    filter(date.year == 2016) %>%
+    arrange(country.text)
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+    dp <- ggplot(yil2004, aes(x = country.text, 
+                              y = value.number)) +  
+          geom_point(stat = "identity", color = "maroon", size = 2) +
+          geom_segment(aes(y = 0,
+                           x = country.text,
+                           yend = value.number,
+                           xend = country.text),
+                       color = "maroon") + 
+          labs(x = "Countries", y = "Percentage of recycled", 
+               title = " in 2004") + 
+          theme_bw() +
+          coord_flip()
+    
+    lp <- ggplot(yil2016, aes(x = country.text, 
+                              y = value.number)) +  
+          geom_point(stat = "identity", color = "indian red", size = 2) +
+          geom_segment(aes(y = 0,
+                           x = country.text,
+                           yend = value.number,
+                           xend = country.text),
+                       color = "indian red") +
+          theme_bw() +
+          labs(x = "Countries", y = "Percentage of recycled", 
+               title = "in 2016") + 
+      coord_flip()
+```
+
+
+ 
+
+
+##        **Municipal waste recycled and composted in each European country**
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  ggarrange(dp, lp) +
+  labs(title = "Municipal waste recycled and composted in each European country") 
+  #coord_flip()
+```
+\
+\
+\
+\
+\
+\
+\
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+library(readxl)
+statistic_id789638_total_volume_of_waste_produced_per_capita_in_the_european_union_2019_by_country_1_ <- read_excel("data/statistic_id789638_total-volume-of-waste-produced-per-capita-in-the-european-union-2019-by-country (1).xlsx", 
+    sheet = "Data")
+#View(statistic_id789638_total_volume_of_waste_produced_per_capita_in_the_european_union_2019_by_country_1_)
+
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  cwasteproduced <- statistic_id789638_total_volume_of_waste_produced_per_capita_in_the_european_union_2019_by_country_1_
+  #View(cwasteproduced)
+  cwasteproduced[1,]=NA
+  cwasteproduced[2,]=NA
+  #View(cwasteproduced)
+  cwasteproduced=na.omit(cwasteproduced)
+  #View(cwasteproduced)
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F, results='hide'}
+  names(cwasteproduced)[1]<-"region"
+  names(cwasteproduced)[2]<-"value"
+  cwasteproduced
+  cwasteproduced[6,1] <-c("Ireland")
+  cwasteproduced[18,1] <-c("UK")
+  cwasteproduced[24,1] <-c("Bulgaria")
+  cwasteproduced[15,1] <-c("Czech Republic")
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, results='hide', echo=F}
+  cwasteproduced
+  #View(cwasteproduced)
+  library(forcats)
+```
+
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  mapdata <- map_data("world")
+  mapdata <- left_join(mapdata, cwasteproduced, by="region")
+  #View(mapdata)
+```
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  # Some EU Contries
+  some.eu.countries <- c(
+    "Portugal", "Spain", "France", "Germany","Cyprus","Greece","Lithuania",
+    "Latvia", "Austria", "Belgium", "UK", "Netherlands", "Denmark", "Poland", 
+    "Italy", "Croatia", "Slovenia", "Hungary", "Slovakia", 
+    "Czech republic","Ireland","Romania","Bulgaria","Luxembourg","Malta",
+    "Croatia","Estonia","Finland","Sweden"
+  )
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  # Retrievethe map data
+  some.eu.maps <- map_data("world", region = some.eu.countries)
+```
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  region.lab.data <- some.eu.maps %>%
+    group_by(region) %>%
+    summarise(long = mean(long), lat = mean(lat))
+  
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,results='hide',echo=F}
+  cwasteproduced$value <- as.numeric(cwasteproduced$value) 
+  typeof(cwasteproduced$value)
+  class(cwasteproduced$value)
+  
+  #View(cwasteproduced)
+```
+
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  mapdata1 <- left_join(some.eu.maps, cwasteproduced, by="region")
+```
+
+Denmark is the biggest producer of municipal waste per capita in the European Union, with each inhabitant generating an average of 844 kilograms of waste in 2019. Luxembourg and Malta came in second and third, respectively. With 280 kilograms of waste Romania is the lowest producer in our data in 2019. On the other end, after Romania, Poland is the second country to produce the least waste with 336 kilos per person, Estonia follows in third place (369 kilos per person) and Hungary in fourth place (387 kilos per person).
+
+```{r show_col_types = FALSE, warning=FALSE, message=F}
+  cwasteproduced %>%
+  arrange(value) %>%    
+  mutate(name=factor(region, levels=region)) %>%   
+  ggplot( aes(x=name, y=value)) +
+  geom_segment( aes(xend=name, yend=0),color="red") +
+  geom_point( size=3, color="red") +
+  coord_flip() +
+  theme_bw() +
+  xlab("")+
+  ylab("Total volume of waste produced per capita in the EU 2019")+
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.border = element_blank(),
+    axis.ticks.y = element_blank()
+  )
+
+```
+\
+\
+\
+\
+\
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  library(rvest)
+  library(ggplot2)
+  # Reading in the table from Wikipedia
+  page = read_html("https://en.wikipedia.org/wiki/Recycling_rates_by_country")
+  # Obtain the piece of the web page that corresponds to the "wikitable" node
+  my.table = html_node(page, ".wikitable")
+  # Convert the html table element into a data frame
+  my.table = html_table(my.table, fill = TRUE)
+  #View(my.table)
+  names(my.table)[1]<-"region"
+```
+
+```{r  show_col_types = FALSE, warning=FALSE, message=FALSE}
+my.table %>%
+  arrange(Recycling) %>%    
+  mutate(name=factor(region, levels=region)) %>%   
+  ggplot( aes(x=name, y=Recycling)) +
+  geom_segment( aes(xend=name, yend=0),color="green") +
+  geom_point( size=3, color="green") +
+  coord_flip() +
+  theme_bw() +
+  xlab("")+
+  ylab("Recycling Rates (%)")+
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.border = element_blank(),
+    axis.ticks.y = element_blank()
+  )
+
+```
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+In addition to the graph, you can see it in the form of a map below. As you can see, the darker areas show countries with a higher ratio. The ratio decreases as the color tone become lighter.
+
+```{r show_col_types = FALSE, warning=FALSE, message=F}
+  map1<-ggplot(mapdata1, aes( x = long, y = lat, group=group)) +
+    ggtitle("Total volume of waste produced per capita in the EU 2019
+  (in kilograms per inhabitant)")+
+    geom_polygon(aes(fill = value), color = "black") + 
+    scale_fill_gradient(name = "Volume", high = "#641E16", 
+                        low =  "#FFA07A", na.value = "grey50")+
+    theme(axis.text.x = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks = element_blank(),
+          axis.title.y=element_blank(),
+          axis.title.x=element_blank(),
+          rect = element_blank())
+    
+  map1
+```
+\
+\
+\
+\
+\
+\
+\
+\
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  library(rvest)
+  library(ggplot2)
+  # Reading in the table from Wikipedia
+  page = read_html("https://en.wikipedia.org/wiki/Recycling_rates_by_country")
+  # Obtain the piece of the web page that corresponds to the "wikitable" node
+  my.table = html_node(page, ".wikitable")
+  # Convert the html table element into a data frame
+  my.table = html_table(my.table, fill = TRUE)
+  #View(my.table)
+  names(my.table)[1]<-"region"
+```
+
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  some.eu.countries1 <- c(
+    "Portugal", "Spain", "France", "Switzerland", "Germany","Cyprus",
+    "Greece","Lithuania","Latvia",
+    "Austria", "Belgium",  "Netherlands",
+    "Denmark", "Poland", "Italy", 
+     "Slovenia", "Hungary", "Slovakia",
+    "Czech republic","Luxembourg","Estonia","Finland","Sweden","Turkey"
+  )
+  # Retrievethe map data
+  some.eu.maps1 <- map_data("world", region = some.eu.countries1)
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  region.lab.data <- some.eu.maps1 %>%
+    group_by(region) %>%
+    summarise(long = mean(long), lat = mean(lat))
+    #View(region.lab.data)
+```
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  mapdata2 <- left_join(some.eu.maps1, my.table, by="region")
+  #View(mapdata2)
+```
+
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=F}
+  map3<-ggplot(mapdata2, aes( x = long, y = lat, group=group)) +
+    ggtitle("Recycling rates  by country 2019 ")+
+    geom_polygon(aes(fill = Recycling), color = "black") + 
+    scale_fill_gradient(name = " %", high = "#006400", 
+                        low =  "#00FF7F", na.value = "grey50")+
+    theme(axis.text.x = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks = element_blank(),
+          axis.title.y=element_blank(),
+          axis.title.x=element_blank(),
+          rect = element_blank())
+  
+  map3
+```
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,results='hide',echo=F}
+  library(readxl)
+  WshipR_Statistics_explained_Dec_20_1_ <- read_excel(
+    "data/WshipR_Statistics_explained_Dec-20 (1).xlsx", 
+      sheet = "Figure 1")
+  #View(WshipR_Statistics_explained_Dec_20_1_)
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,results='hide',echo=F}
+  disposal <- WshipR_Statistics_explained_Dec_20_1_
+  #View(disposal)
+```
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE,results='hide', echo=F}
+  disposal[19:26,]=NA
+  #View(disposal)
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE,results='hide', echo=F}
+  names(disposal)[2]<-"Disposal"
+  names(disposal)[3]<-"Recovery"
+  #View(disposal)
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  yenidisposal <- select(disposal, Disposal, Recovery) %>%
+  mutate(disposal, Disposal=Disposal/1000000, Recovery=Recovery/1000000)
+  #View(yenidisposal)
+```
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,results='hide',echo=F}
+  library(ggplot2)
+  
+  
+  classes <- levels(cut(2001:2018, breaks = c(2001,2002,2003,2004,2005,2006,
+                                              2007,2008,2009,2010,2011,2012,
+                                              2013,2014,2015,2016,2017,2018),
+                        right =FALSE))
+  
+  my.df <- data.frame(yenidisposal$Year,yenidisposal$Disposal,yenidisposal$Recovery)
+  my.df
+  
+  names(my.df)[1]<-"Year"
+  names(my.df)[2]<-"Disposal"
+  names(my.df)[3]<-"Recovery"
+```
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,results='hide',echo=F}
+  library(readxl)
+  Waste_shipment_data_imports_exports_2_ <- read_excel(
+    "data/Waste_shipment_data_imports_exports(2).xlsx")
+  #View(Waste_shipment_data_imports_exports_2_)
+```
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,echo=F}
+  Waste <- Waste_shipment_data_imports_exports_2_
+```
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE, echo=F}
+  Waste[1, ]=NA
+  Waste[2, ]=NA
+  Waste[3, ]=NA
+  Waste[4, ]=NA
+  Waste[5, ]=NA
+  Waste[6, ]=NA
+  Waste[7, ]=NA
+  Waste[8, ]=NA
+  
+  names(Waste)[1]<-"Year"
+  names(Waste)[2]<-"Import_export"
+  names(Waste)[3]<-"Country_reporting"
+  names(Waste)[4]<-"Population"
+  names(Waste)[5]<-"Quantity_in_tonnes"
+  names(Waste)[6]<-"Quantity_in_kg_per_capita"
+  names(Waste)[7]<-"Country_Name"
+  names(Waste)[8]<-"Disposal_and_recovery_code"
+  names(Waste)[9]<-"General_Basel_Convention_code_Y_code"
+  names(Waste)[10]<-"European_List_of_Waste_code"
+  names(Waste)[11]<-"Detailed_Basel_Convention_code_or_OECD_decison_code"
+  names(Waste)[12]<-"Basis_for_classification_to_hazardous_and_nonhazardous"
+  names(Waste)[13]<-"UN_hazardous_code_properties_which_render_the_waste_hazard"
+  names(Waste)[14]<-"Country_of_transit_stated_by_a_code"
+  names(Waste)[15]<-"Notes"
+  View(Waste)
+```
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,results='hide',echo=F}
+  Waste$Quantity_in_tonnes <- as.numeric(Waste$Quantity_in_tonnes) 
+  typeof(Waste$Quantity_in_tonnes)
+  class(Waste$Quantity_in_tonnes)
+  class(Waste$Year)
+
+```
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+This data includes raw data as reported directly to The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal. The amount of waste Turkey imported in 2004 while it was 3,425 tons, this amount was in 2019 is 235,241.9 tons. These numbers show us that the rate of exported waste to Turkey has increased tremendously.
+
+```{r}
+  WasteFilter3 <- Waste %>%
+    select(Year, Import_export, Country_Name,Quantity_in_tonnes) %>%
+    filter(Year == "2004") %>%  
+    filter(Import_export == "Export") %>% 
+    filter(Country_Name=="Turkey") %>% 
+    filter(Quantity_in_tonnes>=0) %>% 
+    summarise(Quantity_in_tonnes=sum(`Quantity_in_tonnes`))
+    names(WasteFilter3)[1]<-"Quantity_in_tonnes2004" 
+  #View(WasteFilter3)
+
+  WasteFilter1 <- Waste %>%
+    select(Year, Import_export, Country_Name,Quantity_in_tonnes) %>%
+    filter(Year == "2019") %>%  
+    filter(Import_export == "Export") %>% 
+    filter(Country_Name=="Turkey") %>% 
+    filter(Quantity_in_tonnes>=0) %>% 
+    summarise(Quantity_in_tonnes=sum(`Quantity_in_tonnes`))
+    names(WasteFilter1)[1]<-"Quantity_in_tonnes2019" 
+  #View(WasteFilter1)
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,echo=F}
+  Turkey_Export_Table<- merge(WasteFilter1,WasteFilter3)
+  view(Turkey_Export_Table)
+```
+
+###     **Turkey Total Export Table**
+```{r air-quality, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("C:/Users/Busra KOKSAL/Masaüstü/Int Data/R/project_final_report-hypatia/img/Turkey_Export_Table.PNG", error = FALSE)
+```
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+The figure below shows the main treatments of hazardous waste exported by the EU Member States between 2001-2018. To explain what disposal and recovery contain, there are four main types included in our data for recovery. These types are recycling(reclamation of organic substances which are not used as solvents), use as a fuel (other than in direct incineration), or other means to generate energy, recycling(reclamation of metals and metal compounds), recycling(reclamation of other inorganic materials). Secondly, there are three main types included in our data for disposal. These types are physical/chemical treatment(e.g., evaporation, drying, calcination, neutralization, precipitation, etc.), deposit into or onto land, (e.g., landfill, etc.), and incineration on land. . Looking all years, it is seen that the recovery rate is higher than the disposal rate. While the disposal rate in 2018 was almost 3 times that of 2001, the recovery rate in 2018 is 2 times that of 2001. It should be hoped that in the coming years, a decrease in the disposal rate and an increase in the recovery rate can be achieved and the countries that import the waste can make progress in this regard. Otherwise, it is for us that these exported wastes are in the form of disposal will unleash an irreversible crisis.
+```{r show_col_types = FALSE, warning=FALSE, message=F}
+  barplot(t(as.matrix(my.df[, 2:3])), 
+          beside = TRUE,
+          names.arg = my.df$Year,
+          legend.text = TRUE, 
+          args.legend = list(x = 40, y = 7.5, ncol = 2),
+          ylim = c(0,7),
+          ylab = "Million Tones",
+          xlim=c(0,55),
+          xlab="Treatment of hazardous waste shipments from EU,2001-2018",
+          col=c("#a62bcd","#6dffdc"))
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,results='hide',echo=F}
+  library(ggplot2)
+  library(readxl)
+  veri <- read_excel("C:/Users/Busra KOKSAL/Masaüstü/Int Data/R/project_final_report-hypatia/data/veri.xlsx")
+  #View(veri)
+  
+```
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE,results='hide',echo=F}
+  tablo <- veri 
+  names(tablo)[1]<-"region"
+  names(tablo)[2]<-"gdp"
+  tablo[2,1] = c("United Kingdom")
+  tablo[33,1] = c("Bosnia and Herzegovina")
+  tablo[37,1] = c("Kosovo")
+  tablo[38,1] = c("Liechtenstein")
+  tablo[6,2] = c("798,674")
+  tablo[16,2] = c("237,467")
+  tablo[18,2] = c("213,661")
+  tablo[29,2] = c("29,334")
+  tablo[15,2] = c("311,726")
+
+```
+
+
+```{r show_col_types = FALSE, warning=FALSE,message=FALSE, results='hide',echo=F}
+   yeni <- tablo
+  
+```
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, results='hide',echo=F}
+    yeni$gdp <- gsub(",","",tablo$gdp) %>% 
+    as.numeric() 
+```
+
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, results='hide',echo=F}
+  #deneme <- yeni
+  yeni$gdp=yeni$gdp/1000000
+  #View(yeni)
+```
+
+### **Is there a correlation between trash and wealth?**
+Denmark, which has a population of 5.7 million people, is a top generator of waste in 2019. In general, the people who generate the most waste live in the richest countries of western Europe. The countries that create the least waste have a smaller gross domestic product (GDP) than their northern neighbours.
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE}
+  GDP <- ggplot(data = yeni, aes(y = reorder(region, gdp), x = gdp)) + 
+    labs(x="GDP in million euros",y= "", title="")+
+    
+    geom_bar(stat = "identity") + 
+    theme_bw() 
+```
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE}
+  WASS <- ggplot(data = cwasteproduced, aes(y = reorder(region, value), x = value)) + 
+  labs(x="Total volume of waste produced",y= "", title="")+
+  
+  geom_bar(stat = "identity") + 
+  theme_bw() 
+```
+
+
+
+##                   **GDP Values and Total volume of waste produced per capita in the EU 2019**
+```{r show_col_types = FALSE, warning=FALSE, message=FALSE, echo=F}
+  ggarrange(GDP, WASS) +
+  labs(title = "GDP Values and Total volume of waste produced per capita in the EU 2019") 
+```
+
+
+
+
+
+\
+\
+\
+\
+\
+  
+
+
+# **Conclusion**  
+
+When we examine all our data, it is seen how the waste problem is a big factor for our world and we need to develop ways to deal with it in various ways. We believe that awareness of this issue will increase over time and that we can solve this problem with education and government policy. We have only one world and we have no right to turn it into a garbage dump.  Save the world.
+
+
+# **Results and Discussion**
+
+The main point of this study was to examine the recycling movement in Europe from various perspectives. In order to make this evaluation, we first examined the recycling and landfill rates in European countries. In this review, we observed that recycling and landfill rates are inversely proportional. Similarly, we observed that there is an opposite relationship between the graph we made ,  incineration with energy recovery and the rate of landfill. When we examined the countries, we saw that the developing countries generally have a high landfill  rate.
+Then, we specially adapted Turkey's recycling and landfill rate to the pie chart. And with this graph, we saw that the rate of landfill is high in Turkey, as in other developing countries.
+
+Another of our data included recycled municipal waste rates in 2004 and 2016. By visualizing these two years in two separate graphs, we compared the recycling rates in 2004 and 2016. As we can see in these two graphs, there has been an increase in the rate of recycled municipal waste on a country basis. In some countries such as Poland, Portugal and Romania, this increase was at a high rate.
+
+Another of our data included the total volume of waste generated per capita in the EU in 2019. When we compared this data and the data containing the recycling rate we examined earlier, by converting it to the same type of graph, we saw that the total waste and recycling rate are not always directly proportional. For example, when we look at Greece, we can see that although the recycling rate is low, the total waste volume is high. We observed these two graphs by visualizing them as density maps.
+
+Another data we examined was the data containing the amount of hazardous waste shipments from the EU processed between 2001-2018. When we visualized this data as a bar graph, we saw that the recycling rate has a variable change over the years.
+
+Then, we visualized our data, which includes the gross national product data, which is an important criterion for measuring the development level of countries. When we examine the bar graph we created, we can observe that the gross national product and the amount of waste produced increase at a similar rate.
+
+Finally, the data we used was the data that includes waste shipment export and import data. By filtering this data, we found the amounts in 2004 and 2019 only in Turkey. And we have observed that the shipment of waste has increased significantly.
+
+After these examinations, perhaps the most important thing to say at the end is that we should not give up on recycling. Although the recycling rate has increased in the past years, we should continue to increase the recycling rate at the same rate as the amount of waste produced and many other factors will also increase. And we must always remind the world that this issue is vital.
+  
+\
+\
+\
+\
+\
+\
+\
+\
+
+# **References**
+* https://data.oecd.org/waste/municipal-waste.htm
+* https://en.wikipedia.org/wiki/Landfill
+* https://www.epa.gov/recycle/recycling-basics
+* https://www.statista.com/statistics/789638/production-waste-tons-by-inhabitant-union-european/ 
+* https://ec.europa.eu/eurostat/web/waste/data
+* https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Waste_shipment_statistics#Shipments_of_hazardous_waste_within_and_out_of_the_EU
+* https://www.statista.com/statistics/685925/gdp-of-european-countries/
+* Lecture Notes
